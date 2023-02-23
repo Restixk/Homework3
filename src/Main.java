@@ -12,8 +12,8 @@ public class Main {
         System.out.println("Значение переменной floatVariable с типом float равно " + floatVariable);
         double doubleVariable = 1.2;
         System.out.println("Значение переменной doubleVariable с типом double равно " + doubleVariable);
-        double meaningDouble = 27.12 ; // пишет ошибку "integer number to large" long longMeaning  = 987678965549 ;
-        double meaningFloat = 2.786; // если пишу float floatMeaning = 27.12; то Incompatible types. Found: 'double', required: 'float'
+        float meaningDouble = 27.12f ; // пишет ошибку "integer number to large" long longMeaning  = 987678965549 ;
+        double meaningFloat = 2.786;
         short meaningShort = 569 ;
         long meaningLong = -159 ;
         int meaningInt = 27897;
@@ -77,6 +77,7 @@ public class Main {
                 + newSalaryYearsDenis + " рублей");
         System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на "
                 + newSalaryYearsKristina + " рублей");
+
 
 
 
